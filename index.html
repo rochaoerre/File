@@ -49,7 +49,7 @@ document.getElementById("removeFile").addEventListener("click", removeFile);
             fileWriter.onerror = function(e) {
                alert('Write failed: Aun no creas el archivo' + e.toString());
             };
-            var blob = new Blob(['Preuba Luis Armando Ortiz Salinas'], {type: 'text/plain'});
+            var blob = new Blob(['Objeto File Luis Rocha'], {type: 'text/plain'});
             fileWriter.write(blob);
          }, errorCallback);
       }, errorCallback);
